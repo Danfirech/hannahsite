@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const FooterMain = styled.div`
   height: 100px;
@@ -11,7 +11,7 @@ const FooterMain = styled.div`
 const Footer = () => {
   return (
     <>
-      <FooterMain></FooterMain>
+      <FooterMain>Contact Info</FooterMain>
     </>
   );
 };

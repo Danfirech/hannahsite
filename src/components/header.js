@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 const HeaderMain = styled.div`
   height: 100px;
@@ -11,7 +11,10 @@ const HeaderMain = styled.div`
 const Header = () => {
   return (
     <>
-      <HeaderMain></HeaderMain>
+      <HeaderMain>
+        <div>Home</div>
+        <div>Contact</div>
+      </HeaderMain>
     </>
   );
 };
