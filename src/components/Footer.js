@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
-const HeaderMain = styled.div`
+const FooterMain = styled.div`
   height: 100px;
   width: 100%;
   display: flex;
   background-color: pink;
 `;
 
-const Header = () => {
+const Footer = () => {
   return (
     <>
-      <HeaderMain></HeaderMain>
+      <FooterMain></FooterMain>
     </>
   );
 };
 
-export default Header;
+export default Footer;
