@@ -1,9 +1,9 @@
-import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Main from "../components/Main";
+import React from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Main from '../components/Main';
 
-const home = () => {
+const Home = () => {
   return (
     <>
       <Header></Header>
@@ -13,4 +13,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
