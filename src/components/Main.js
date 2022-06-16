@@ -1,19 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
+import Background from '../media/background.png';
+import Sticky from '../media/sticky-note (2).png';
 
 const MainContainer = styled.div`
-  height: 900px;
+  height: 700px;
   width: 100%;
   display: flex;
-  background-color: #c4baab;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(${Background});
+
+  img {
+    height: 600px;
+    padding-top: 5%;
+  }
 `;
 
 const Main = () => {
   return (
     <>
       <MainContainer>
-        <div>Come back soon!</div>
-        <div>~good things on the way~</div>
+        <img src={Sticky} alt="sticky note" />
       </MainContainer>
     </>
   );
