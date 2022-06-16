@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const FooterMain = styled.div`
   height: 100px;
@@ -16,8 +16,8 @@ const Footer = () => {
   return (
     <>
       <FooterMain>
-        {/* <FacebookIcon />
-        <InstagramIcon /> */}
+        <FacebookIcon />
+        <InstagramIcon />
       </FooterMain>
     </>
   );
