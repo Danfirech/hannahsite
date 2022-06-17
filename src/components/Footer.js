@@ -1,12 +1,12 @@
-import React from 'react';
-import styled from 'styled-components';
-import Background from '../media/background.png';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import React from "react";
+import styled from "styled-components";
+import Background from "../media/background.png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 const FooterMain = styled.div`
-  height: 100px;
+  height: 10%;
   width: 100%;
   display: flex;
   background-image: url(${Background});

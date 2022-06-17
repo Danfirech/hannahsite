@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import Logo from '../media/3Dark.png';
-import Background from '../media/background.png';
+import React from "react";
+import styled from "styled-components";
+import Logo from "../media/3Dark.png";
+import Background from "../media/background.png";
 
 const HeaderMain = styled.div`
-  height: 100px;
+  height: 10%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -12,7 +12,7 @@ const HeaderMain = styled.div`
   background-image: url(${Background});
 
   img {
-    height: 130px;
+    height: 120px;
     padding-top: 1%;
   }
 `;
