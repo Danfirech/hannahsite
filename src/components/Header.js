@@ -11,9 +11,16 @@ const HeaderMain = styled.div`
   justify-content: center;
   background-image: url(${Background});
 
-  img {
-    height: 120px;
-    padding-top: 1%;
+  .logo {
+    height: 140px;
+    width: 300px;
+    padding-top: 25px;
+    @media screen and (max-width: 900px) {
+      height: 120px;
+      width: 230px;
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
@@ -21,7 +28,9 @@ const Header = () => {
   return (
     <>
       <HeaderMain>
-        <img src={Logo} alt="logo" />
+        <div>
+          <img className="logo" src={Logo} alt="logo" />
+        </div>
       </HeaderMain>
     </>
   );

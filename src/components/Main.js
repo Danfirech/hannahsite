@@ -2,10 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Background from "../media/background.png";
 import Sticky from "../media/sticky-note (2).png";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import Logo from "../media/3Dark.png";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const MainContainer = styled.div`
   height: 100%;
@@ -22,40 +20,21 @@ const MainContainer = styled.div`
   }
 `;
 
-const HeaderMain = styled.div`
-  height: 10%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-image: url(${Background});
-
-  img {
-    height: 120px;
-    padding-top: 1%;
-  }
-`;
-
 const ImageContainer = styled.div`
   height: 80%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
 
-const FooterMain = styled.div`
-  height: 10%;
-  width: 100%;
-  display: flex;
-  background-image: url(${Background});
-  align-items: center;
-  justify-content: center;
+  .stickyNotes {
+    height: 450px;
+    width: 450px;
 
-  .icon {
-    height: 100%;
-    color: #445245;
-    padding: 5px;
+    @media screen and (max-width: 900px) {
+      height: 300px;
+      width: 300px;
+    }
   }
 `;
 
@@ -63,17 +42,11 @@ const Main = () => {
   return (
     <>
       <MainContainer>
-        <HeaderMain>
-          <img src={Logo} alt="logo" />
-        </HeaderMain>
+        <Header></Header>
         <ImageContainer>
-          <img src={Sticky} alt="sticky note" />
+          <img className="stickyNotes" src={Sticky} alt="sticky note" />
         </ImageContainer>
-        <FooterMain>
-          <FacebookIcon className="icon" />
-          <InstagramIcon className="icon" />
-          <TwitterIcon className="icon" />
-        </FooterMain>
+        <Footer></Footer>
       </MainContainer>
     </>
   );
