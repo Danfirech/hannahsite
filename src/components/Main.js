@@ -12,7 +12,6 @@ const MainContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   background-image: url(${Background});
-  background-color: pink;
 
   img {
     height: 100px;
