@@ -20,13 +20,27 @@ const FooterMain = styled.div`
   }
 `;
 
+const FooterMainMiddle = styled.div`
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .color {
+    color: #445245;
+  }
+`;
+
 const Footer = () => {
   return (
     <>
       <FooterMain>
-        <FacebookIcon className="icon" />
-        <InstagramIcon className="icon" />
-        <TwitterIcon className="icon" />
+        <FooterMainMiddle>
+          <div className="color">kristen@southernadirondackmidwifery.com</div>
+          <div className="color">(518) 289-5240</div>
+        </FooterMainMiddle>
       </FooterMain>
     </>
   );
