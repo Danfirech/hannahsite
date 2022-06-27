@@ -16,7 +16,7 @@ const HeaderMain = styled.div`
     width: 300px;
     padding-top: 25px;
     @media screen and (max-width: 900px) {
-      height: 120px;
+      height: 121px;
       width: 230px;
       display: flex;
       justify-content: center;
