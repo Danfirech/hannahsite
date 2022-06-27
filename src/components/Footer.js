@@ -30,7 +30,6 @@ const FooterMainMiddle = styled.div`
 
   .color {
     color: #445245;
-    font-family: "Symphony-Italic";
   }
 `;
 

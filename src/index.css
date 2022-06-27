@@ -17,6 +17,7 @@ body,
 #root,
 .App {
   height: 100%;
+  font-family: "Symphony-Italic";
 }
 
 * {
